@@ -1,4 +1,20 @@
-### Proje nedir?
+### LSTM-COVID-19 Projesi nedir?
+
+Bu proje Türkiye Korona Virüs dataseti üzerinden, LSTM ve GRU algoritmalarını kullanarak  22.08.2020 - 20.09.2020 tarihleri arasındaki olası aktif korona sayısını tahmin etmekte.
+Bu işlem sırasında LSTM algoritmasında, önceki 3 veriyi okuyarak sonraki veriyi tahmin etmekte. (Örneğin; 19,20,21 ağustostaki aktif korona sayısını kullanarak 22 ağustostaki aktif korona sayısını tahmin eder.)  
+
+**Bu Projede**
+
+- MinMaxScaler fonksiyonu ile ölçeklendirme işlemimizi yaptık.
+- eğitim verimiz , tüm verimizin %60'ı olarak seçildi.
+- test verimiz, tüm verimizin %40'ı olarak seçildi.
+- Timstep'imiz 3 olarak seçildi.
+- LSTM tek katmanlı ve 50 hücreli seçildi.
+- Overfitting sıkıntısını önlemek adına dropout=0,2 olarak seçildi.
+- optimizer'ımız 'adam' , loss değerimiz 'mse' seçildi
+- epoch değerimiz 100 ayarlandı
+- dinamik fonksiyonlar yaratıldığından, predictDayNumber değişkeni değiştirilerek , tahmin sayısı arttırılabilir.
+
 
 ### --------------------
 
