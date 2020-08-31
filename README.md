@@ -1,9 +1,3 @@
-if you want to clone this project, you must implement libraries
-
-##################
-
-
-
 
 ### Kurulum###
 
