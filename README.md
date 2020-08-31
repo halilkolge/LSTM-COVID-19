@@ -1,12 +1,14 @@
+### Proje nedir?
 
-### Kurulum###
+### --------------------
 
+### Kurulum
 
-1. Clone the repo
+### 1. Clone the repo
 ```sh
 git clone https://github.com/halilkolge/LSTM-COVID-19.git
 ```
-2. Install Pip packages
+### 2. Install Pip packages
 ```sh
 pip install numpy
 pip install pandas
@@ -17,3 +19,4 @@ pip install matplotlib
 pip install tensorflow
 ```
 
+### --------------------
