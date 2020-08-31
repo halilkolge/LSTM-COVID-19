@@ -20,11 +20,11 @@ Bu işlem sırasında LSTM algoritmasında, önceki 3 veriyi okuyarak sonraki ve
 
 ### Kurulum
 
-### 1. Clone the repo
+### 1. Repo'yu Klonla
 ```sh
 git clone https://github.com/halilkolge/LSTM-COVID-19.git
 ```
-### 2. Install Pip packages
+### 2. Pip paketlerini indir
 ```sh
 pip install numpy
 pip install pandas
